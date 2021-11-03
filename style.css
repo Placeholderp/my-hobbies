@@ -1,6 +1,31 @@
 body {
 	background-color: black;
-	color:white;
+	color: white;
+}
+
+.header h1 {
+	width: 100%;
+	height: 10%;
+	font-family: calibri;
+	text-decoration: underline;
+	font-size: 50px;
+	text-align: center;
+}
+
+.header img {
+    width: 5%;
+    height: auto;
+    border-radius: 50%;
+    float: right;
+}
+
+.header ul li {
+	display: inline-block;
+	font-family: calibri;
+	font-size: 30px;
+	padding: 5px;
+	border: 1px solid white;
+	margin: 10px;
 }
 
 h1 {
@@ -27,6 +52,13 @@ h5 {
 p {
 	font-family: helvetica;
 }
+
+img {
+	border: 1px solid black;
+	margin-right: 10px; margin-bottom: 5px;
+	float: left;
+}
+
 
 .hobby1 {
 	background-color: white;
@@ -55,10 +87,9 @@ p {
 	margin: 30px;
 }
 
-img {
-	border: 1px solid black;
-	margin-right: 10px; margin-bottom: 5px;
-	float: left;
+/*makes github picture straight with others, for some reason it was not going in the same position*/
+.hobby3 img {
+	margin-left: 35px;
 }
 
 #languages {
