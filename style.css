@@ -1,6 +1,13 @@
 body {
-	background-color: black;
-	color: white;
+	background-color: black !important;
+}
+
+.btn {
+	background-color: white !important;
+	color: black !important;
+	font-family: calibri !important; 
+	font-size: 25px !important;
+	padding: 5px !important;
 }
 
 .header h1 {
@@ -10,6 +17,7 @@ body {
 	text-decoration: underline;
 	font-size: 50px;
 	text-align: center;
+	color: white;
 }
 
 .header img {
@@ -20,12 +28,14 @@ body {
 }
 
 .header ul li {
-	display: inline-block;
-	font-family: calibri;
+	display: inline-block !important;
 	font-size: 30px;
 	padding: 5px;
-	border: 1px solid white;
 	margin: 10px;
+}
+
+.header hr {
+	color: white;
 }
 
 h1 {
@@ -74,7 +84,7 @@ img {
 	width: 95%;
 	color: black;
 	padding: 5px;
-	border: 5px solid green;
+	border: 5px solid #68C917;
 	margin: 30px;
 }
 
@@ -83,7 +93,7 @@ img {
 	width: 95%;
 	color: black;
 	padding: 5px;
-	border: 5px solid purple;
+	border: 5px solid #C9184E;
 	margin: 30px;
 }
 
@@ -94,4 +104,23 @@ img {
 
 #languages {
 	font-weight: bold;
+}
+
+.btn-primary {
+	background-color:red;
+}
+
+.footer {
+	float: left;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    width: 95%;
+    margin-bottom: 10px;
+    opacity: 0.85;
 }
