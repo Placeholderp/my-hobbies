@@ -111,10 +111,6 @@ img {
 }
 
 .footer {
-	float: left;
-}
-
-.footer {
     position: fixed;
     bottom: 0;
     display: flex;
