@@ -97,11 +97,6 @@ img {
 	margin: 30px;
 }
 
-/*makes github picture straight with others, for some reason it was not going in the same position*/
-.hobby3 img {
-	margin-left: 35px;
-}
-
 #languages {
 	font-weight: bold;
 }
