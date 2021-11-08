@@ -84,6 +84,10 @@ img {
 	margin: 30px;
 }
 
+.hobby1:hover {
+	border: 7px solid yellow;
+}
+
 .hobby2 {
 	background-color: white;
 	width: 95%;
@@ -92,6 +96,11 @@ img {
 	border: 5px solid #68C917;
 	margin: 30px;
 }
+
+.hobby2:hover {
+	border: 7px solid #68C917;
+}
+
 
 .hobby3 {
 	background-color: white;
@@ -103,6 +112,10 @@ img {
 	display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.hobby3:hover {
+	border: 7px solid #C9184E;
 }
 
 
