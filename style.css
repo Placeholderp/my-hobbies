@@ -39,6 +39,10 @@ img {
 
 }
 
+img:hover {
+	outline: 1px solid black;
+}
+
 .btn {
 	background-color: white !important;
 	color: black !important;
@@ -46,6 +50,8 @@ img {
 	font-size: 25px !important;
 	padding: 5px !important;
 }
+
+li .button {}
 
 .header h1 {
 	width: 100%;
@@ -62,6 +68,10 @@ img {
     height: auto;
     border-radius: 50%;
     float: right;
+}
+
+.header img:hover {
+	outline: 2px solid white;
 }
 
 .header ul li {
@@ -85,7 +95,15 @@ img {
 }
 
 .hobby1:hover {
-	border: 7px solid yellow;
+	outline: 2px solid yellow;
+}
+
+#videogamesButton {
+	border: 3px solid yellow !important;
+}
+
+#videogamesButton:hover {
+	outline: 2px solid yellow !important;
 }
 
 .hobby2 {
@@ -98,7 +116,15 @@ img {
 }
 
 .hobby2:hover {
-	border: 7px solid #68C917;
+	outline: 2px solid #68C917;
+}
+
+#tvShowsButton {
+	border: 3px solid #68C917 !important;
+}
+
+#tvShowsButton:hover {
+	outline: 2px solid #68C917 !important;
 }
 
 
@@ -115,17 +141,22 @@ img {
 }
 
 .hobby3:hover {
-	border: 7px solid #C9184E;
+	outline: 2px solid #C9184E;
+}
+
+#programmingButton {
+	border: 3px solid #C9184E !important;
+}
+
+
+#programmingButton:hover {
+	outline: 2px solid #C9184E !important;
 }
 
 
 
 #languages {
 	font-weight: bold;
-}
-
-.btn-primary {
-	background-color:red;
 }
 
 .footer {
@@ -137,4 +168,12 @@ img {
     width: 95%;
     margin-bottom: 10px;
     opacity: 0.85;
+}
+
+#backToTopButton {
+	border: 3px solid #0d6efd;
+}
+
+#backToTopButton:hover {
+	outline: 2px solid #0d6efd !important;
 }
