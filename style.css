@@ -95,7 +95,7 @@ li .button {}
 }
 
 .hobby1:hover {
-	outline: 2px solid yellow;
+	outline: 2px solid yellow !important;
 }
 
 #videogamesButton {
