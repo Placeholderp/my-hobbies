@@ -49,9 +49,26 @@ img:hover {
 	font-family: calibri !important; 
 	font-size: 25px !important;
 	padding: 5px !important;
+	height: 50px !important;
+	width: 150px !important;
 }
 
-li .button {}
+.btn:hover {
+	height: 60px !important;
+	width: 200px !important;
+	font-size: 28px !important;
+	transition: height 1s, width 1s !important;
+	transition-delay: 0.5s;
+	
+}
+
+.btn:not(:hover){
+ 	height: 50px !important;
+	width: 150px !important;
+	font-size: 25px !important;
+	transition: height 1s, width 1s !important;
+	transition-delay: 0.5s;
+}
 
 .header h1 {
 	width: 100%;
@@ -95,7 +112,7 @@ li .button {}
 }
 
 .hobby1:hover {
-	outline: 2px solid yellow !important;
+	outline: 2px solid yellow;
 }
 
 #videogamesButton {
@@ -176,4 +193,5 @@ li .button {}
 
 #backToTopButton:hover {
 	outline: 2px solid #0d6efd !important;
+	opacity: 1;
 }
